@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding-top: 70px;
+}
+
+.custom-navbar {
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1030;
+}
+
+.navbar {
+    background-color: yellow !important;
+}
+
+
+#fale-conosco {
+    color: #000;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.custom-nav-link {
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.custom-nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.3s ease;
+}
+
+#fale-conosco:hover {
+    border: 1px solid black;
+}
+
+.custom-nav-link:hover::after {
+    width: 100%;
+}
+
+.hero-section {
+    min-height: 80vh;
+    background-image: url(./imagens/2020121616128_55b3d1e41cdd1b33c5cfe663b0baea1fde612f9f0095fbd706f43f4ed30dd2e0.webp);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn-outline-light {
+    border-width: 2px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    color: white;
+    border-color: white;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: #ffdd00e4;
+    border-color: #ffdd00;
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+    scroll-margin-top: 70px;
+}
+
+section h2 {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.custom-support-btn {
+    background-color: #ffdd00e0;
+    border-color: #ffdd00;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-support-btn:hover {
+    background-color: blue;
+    color: #fff;
+    border-color: pink;
+    transform: translateY(-2px);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+#botao-enviar-candidatura {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#botao-enviar-candidatura button {
+    background-color: #ffdd00;
+    transition: all 0.5s ease;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    font-size: 0.9rem;
+}
