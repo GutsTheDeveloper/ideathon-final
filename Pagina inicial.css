@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: #f8bf04 !important;
+    background-color: #f8ac04 !important;
 }
 
 
@@ -104,8 +104,8 @@ section h2 {
 }
 
 .custom-support-btn {
-    background-color: #ffdd00e0;
-    border-color: #ffdd00;
+    background-color: #04a01be0;
+    border-color: #04a01be0;
     color: white;
     font-weight: 600;
     padding: 15px 30px;
@@ -148,7 +148,7 @@ section h2 {
 }
 
 #botao-enviar-candidatura button {
-    background-color: #ffdd00;
+    background-color: #f8ac04;
     transition: all 0.5s ease;
 }
 
